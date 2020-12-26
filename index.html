@@ -3,6 +3,11 @@
       
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="Logo/sketch-1593100632548.png">
     <title>Jafa Craft & Design</title>
@@ -16,7 +21,8 @@
 
         h2{ 
             color: cadetblue;
-            font-family: 'Indie Flower', cursive;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 50px;
         } 
         
         h3{ 
@@ -36,10 +42,26 @@
         #page1{
           background-image: url(https://cdn.pixabay.com/photo/2018/05/28/05/59/whitespace-3435341_960_720.jpg);
           background-attachment: fixed;
-          height: 100vh;
+          height: 125vh;
           background-position: center;
           background-size: cover;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
         }
+          @media only screen and (max-width: 600px){
+          #page1{
+          background-image: url(https://cdn.pixabay.com/photo/2018/05/28/05/59/whitespace-3435341_960_720.jpg);
+          max-height: 5vh;
+          background-position: center;
+          background-size: cover;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+          }
 
         #sticky {
           position: fixed;
@@ -64,7 +86,7 @@
         <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href='#aboutus'>About Us</a>
         <a class="nav-item nav-link" href='#contactus'>Contact Us</a>
-        <a class="nav-item nav-link" href="our product.html">Our Product</a>
+        <a class="nav-item nav-link" href="our product.html">Product</a>
       </div>
     </div>
   </nav>
@@ -75,8 +97,8 @@
         <img src="Logo/sketch-1593100632548.png" alt="logo Jafa" width="300" height="400" style="display: block;
         margin: 0 auto;">
         <center>
-        <h1>Jafa</h1>
-        <h3>Craft & Design</h3>
+        <h1 style="font-family: 'Nerko One', cursive; font-size: 65px;">Jafa</h1>
+        <h3 style="font-family: 'Baloo 2', cursive; font-size: 40px;">Craft & Design</h3>
       </center>
     </div>
 
@@ -86,7 +108,7 @@
       <br>
       <center>
       <h2><span id='aboutus'>About Us</span></h2>
-      <p>Jafa bergerak di bidang craft dan design, jadi ada <b>Jafa Craft</b> dan <b>Jafa Design</b>. :) 
+      <p style="font-family: 'Overpass', sans-serif;">Jafa bergerak di bidang craft dan design, jadi ada <b>Jafa Craft</b> dan <b>Jafa Design</b>. :) 
       <br>Produk craft yang ada di Jafa craft, semuanya handmade dan langsung dari tangan pertama.
       <br>Kami selalu menyediakan produk berkualitas, unik dan harga yang bersahabat.<br>Untuk jasa design, kami selalu 
       mengutamakan kepuasan klien kami. <br> Terima Kasih :)  <p>
@@ -100,7 +122,7 @@
     <br>
     <center>
     <h2 style="color: white;"><span id='contactus'>Contact Us</span></h2>
-    <p style="color: white;">Tertarik dengan produk kami ? Ingin order produk kami ? <br>Ingin tanya2 aja dulu ? Boleeh.</p>
+    <p style="color: white;font-family: 'Overpass', sans-serif;">Tertarik dengan produk kami ? Ingin order produk kami ? <br>Ingin tanya2 aja dulu ? Boleeh.</p>
     <br>
     <a href=" https://www.instagram.com/jafacraft/" target="_blank">
     <i class="fa fa-instagram" style="font-size:48px; color:white"></i>
